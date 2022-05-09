@@ -7,7 +7,7 @@
 <body>
     <div>
         <header>
-            <img src="assests/images/logo.png" alt="logo" height="100px" width="150px">
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="100px" width="150px"></a> 
             <a href="login.html" target="_blank">Login</a>
             <br>
             
@@ -15,7 +15,22 @@
         <div>
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="hotel1">
             <br>
-            <a href="payment.html">Book Now</a>
+            
+
+            <form action="payment.html" method="get">
+                <label >Adults</label>
+                <input type="number" min="1" name="Adults" required><br>
+                <label>Name</label>
+                <input type="text" name="Name" required><br>
+                <label>From Date</label>
+                <input type="date" name="FromDate" required><br>
+                <label >To Date</label>
+                <input type="date" name="ToDate" required><br>
+                <label >Total</label>
+                <input type="text" readonly><br>
+
+                <input type="submit" value="Book Now">
+            </form>
             <p><b>Radisson Blu Hotel</b> </p>
             <p>5 Star</p> 
             <p>New Delhi</p>
