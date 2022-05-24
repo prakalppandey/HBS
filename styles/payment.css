@@ -1,0 +1,115 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+html, body {
+    height: 100;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: "Ubuntu",sans-serif;
+  }
+  .container{
+    height: 100%;
+    
+    
+
+    
+    /* background-color: #e0e0e0; */
+}
+.header{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+    
+}
+.footer{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+    
+}
+
+.header a{
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    text-decoration: none;
+    color: black;
+}
+footer div:nth-child(2){
+    font-size: 10px;
+}
+.fbinsta{
+    margin-right: 50px;
+}
+main{
+padding-bottom: 100px; 
+padding-top: 100px;
+}
+main div ul{
+    display: flex;
+    justify-content: center;
+    
+   
+    list-style: none;
+    text-decoration: none;
+    margin: auto;
+}
+
+.main{
+    background-color:  rgb(132,136,139);
+    background-position: center;
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+}
+.main2{
+    margin: 2%;
+}
+.main3{
+    margin: 2%;
+    
+}
+.paynow{
+    text-decoration: none;
+    color: black;
+}
+
+.mainborder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: rosybrown;
+    margin-bottom: 200px ;
+}
+
+.detail{
+    
+margin-right: 200px;
+
+    width: 80%;
+    font-size: large;
+    
+
+}

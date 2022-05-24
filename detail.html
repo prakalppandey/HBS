@@ -18,37 +18,71 @@
 
        </header>
         <main>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="hotel1" height="500px" width="500px" class="main">
+           <div class="border">
+           <div ><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="hotel1" height="300px" width="400px" class="main">
             <br>
+           </div> 
+            <div class="border1"><form action="payment.html" method="get" class="form1">
+                <table>
+                    <tbody>
+                      <tr>
+                        <th scope="row"> <label>Adults</label> </th>
+                        <td><input type="number" min="1" name="Adults" required><br></td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                          <th scope="row"> <label>Name</label></th>
+                          <td><input type="text" name="Name" required><br></td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <th scope="row"> <label>From Date</label> </th>
+                          <td><input type="date" name="FromDate" required><br></td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <th scope="row"> <label >To Date</label></th>
+                          <td><input type="date" name="ToDate" required><br></td>
+                        </tr>
+                      </tbody>
+                      <tbody>
+                        <tr>
+                          <th scope="row"> <label >Total</label>
+                          <td><input type="text" readonly><br></td>
+                        </tr>
+                      </tbody>
             
-
-            <form action="payment.html" method="get" class="form1">
-                <label >Adults</label>
-                <input type="number" min="1" name="Adults" required><br>
-                <label>Name</label>
-                <input type="text" name="Name" required><br>
-                <label>From Date</label>
-                <input type="date" name="FromDate" required><br>
-                <label >To Date</label>
-                <input type="date" name="ToDate" required><br>
-                <label >Total</label>
-                <input type="text" readonly><br>
-
-                <input type="submit" value="Book Now">
+                    <tfoot>
+                      <tr>
+                        <td colspan="2">
+            
+                            <input type="submit" value="Book Now"></td>
+                      </tr>
+                    </tfoot>
+                  </table>
             </form>
+        
+           </div>
+        </div>
+            
             <div class="bottom">
             <p><b>Radisson Blu Hotel</b> </p>
-            <p>5 Star</p> 
-            <p>New Delhi</p>
-            <p>AMENITIES</p>
-            <UL>
+            
+            <p style="font-family:cursive"><b>Rating</b></p> 
+            <p>5.0 Star</p>
+            <p style="font-family:cursive"><b>AMENITIES</b></p>
+            <ol>
                 <li>Room service</li>
                 <li>Resturant</li>
                 <li>Business center</li>
                 <li>Fitness center</li>
                 <li>Pool</li>
-            </UL>
-            <p><b>DESCRIPTION</b></p>
+            </ol>
+            
+            <p style="font-family:cursive"><b>DISCRIPTION</b></p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, atque magni! Aliquid molestiae mollitia alias, adipisci voluptatum harum corporis sunt doloremque tempore autem ipsam veniam vitae odit ducimus. Aliquid, exercitationem?
 
         <br><br>
@@ -69,6 +103,14 @@
         </footer>
 
     </div>
+
+
+
+
+
+
+   
+    
     
 </body>
 </html>
