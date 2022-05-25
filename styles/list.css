@@ -5,7 +5,7 @@ html, body {
     background-color: #e0e0e0;
     font-family: "Ubuntu",sans-serif;
   }
-  .container{
+  .container1{
     height: 100%;
     
     
@@ -71,6 +71,10 @@ main div ul{
     display: flex;
     
 }
+.image1:hover,.image2:hover,.image3:hover{
+    background-color: rosybrown;
+}
+
 .radisson{
     margin-left: 30px;
     margin-top: 20px;
@@ -107,13 +111,13 @@ main div ul{
     height: 100%;
     
 }
-.list{
+#list{
     margin-right: 140px;
     text-decoration: none;
     color: black;
     
 }
-.map{
+#map{
     text-decoration: none;
     color: black;
 }

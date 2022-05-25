@@ -9,7 +9,7 @@ html, body {
     background-color: #e0e0e0;
     font-family: "Ubuntu",sans-serif;
   }
-  .container{
+  .container1{
     height: 100%;
     
     
@@ -94,13 +94,14 @@ main div ul{
     margin-bottom: 2%;
 
 }
-.border{
+/* #border_border{
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
     margin-left: 30px;
     margin-right: 30px;
-}
+    
+} */
 .border1{
     border-left: 2px solid black;
     margin-right: 30px;
